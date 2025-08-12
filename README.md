@@ -43,3 +43,6 @@
 월별·분류별 데이터 정규화
         ↓
 CSV 파일로 저장 (UTF-8 BOM)
+
+## 실행방법
+stream.py 는 streamlit run stream.py
