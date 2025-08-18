@@ -150,7 +150,7 @@ npm start
 
 ---
 
-## 🔌 API 요약
+## API 요약
 
 ### `POST /predict`
 
