@@ -1,6 +1,7 @@
 # DIVE 2025 해커톤 - 부산항 데이터 처리와 미래 예측
 이 레포는 **DIVE 2025 해커톤**에서 진행한  **부산항 물동량·입출항 데이터 처리** 과제를 위한 Python 스크립트입니다.
 
+** !!!파일 수정으로 인해 enhanced_sever.py 와 App2를 실행시켜주세요 포트번호 8002 **
 **데이터 파일은 규정상 올릴수 없습니다**
 ---
 
@@ -129,11 +130,11 @@ CSV/XLSX의 월별 거시지표를 \*\*전년동월 대비(%)\*\*로 변환(옵�
 ### 1) 백엔드 (Python 3.10+ 권장)
 
 ```bash
-pip install fastapi uvicorn pandas numpy pydantic statsmodels openpyxl
-uvicorn server:app --reload --host 0.0.0.0 --port 8000
+pip install -r requirements.txt
+uvicorn enhanced_server:app --reload --host 0.0.0.0 --port 8002
 ```
 
-* 문서: [http://localhost:8000/docs](http://localhost:8000/docs)
+* 문서: [http://localhost:8002/docs](http://localhost:8002/docs)
 
 ### 2) 프론트엔드
 
