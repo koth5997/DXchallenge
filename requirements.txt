@@ -1,0 +1,15 @@
+fastapi
+uvicorn[standard]
+python-multipart
+
+statsmodels
+pandas
+numpy
+
+scikit-learn
+tensorflow
+keras
+
+pydantic
+python-dateutil
+typing-extensions
