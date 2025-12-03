@@ -68,7 +68,7 @@ class SensitivityAnalysis(BaseModel):
 # 부산항 예측 클래스
 class BusanPortFastAPIPredictor:
     def __init__(self):
-        # 실제 부산항 환적 물동량 데이터 (TEU/월) 추후 추가 가능
+        # 실제 부산항 환적 물동량 데이터 (TEU/월) 추후 추가 가능 예시 데이터 실사용때는 파일집어넣어야됨됨
         self.real_data = {
             '2020-01': 917547, '2020-02': 797984, '2020-03': 958877, '2020-04': 885187,
             '2020-05': 888330, '2020-06': 905925, '2020-07': 898638, '2020-08': 930599,
@@ -608,4 +608,5 @@ if __name__ == "__main__":
 
 # 실행 명령어:
 # pip install fastapi uvicorn pandas numpy pydantic
+
 # uvicorn main:app --reload --host 0.0.0.0 --port 8000
